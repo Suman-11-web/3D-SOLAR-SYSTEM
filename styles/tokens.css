@@ -1,0 +1,62 @@
+:root {
+  --bg-void: #04060b;
+  --bg-surface: rgba(9, 14, 24, 0.78);
+  --bg-surface-elevated: rgba(14, 22, 38, 0.88);
+  --bg-surface-solid: #0a101d;
+  --bg-glass-hover: rgba(26, 40, 68, 0.65);
+
+  --accent-amber: #ff9e2c;
+  --accent-amber-bright: #ffc164;
+  --accent-amber-dim: rgba(255, 158, 44, 0.18);
+  --accent-cyan: #2ce6ff;
+  --accent-cyan-dim: rgba(44, 230, 255, 0.16);
+  --accent-emerald: #2cff9e;
+  --accent-crimson: #ff3b5c;
+
+  --text-primary: #eef4ff;
+  --text-secondary: #94a7c6;
+  --text-muted: #566885;
+  --text-inverse: #050811;
+
+  --border-subtle: rgba(148, 167, 198, 0.14);
+  --border-active: rgba(44, 230, 255, 0.55);
+  --border-amber: rgba(255, 158, 44, 0.55);
+
+  --glow-amber: 0 0 20px rgba(255, 158, 44, 0.35);
+  --glow-cyan: 0 0 18px rgba(44, 230, 255, 0.32);
+  --glow-crimson: 0 0 22px rgba(255, 59, 92, 0.45);
+  --shadow-panel: 0 16px 48px rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(255, 255, 255, 0.07);
+
+  --font-display: 'Chakra Petch', sans-serif;
+  --font-sans: 'Space Grotesk', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-8: 3rem;
+
+  --radius-xs: 3px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --backdrop-blur: blur(14px);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-cubic: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --z-canvas: 1;
+  --z-labels: 5;
+  --z-hud: 10;
+  --z-panels: 20;
+  --z-tour: 25;
+  --z-overlay: 40;
+  --z-palette: 60;
+  --z-boot: 80;
+  --z-toast: 90;
+  --z-tooltip: 100;
+}
